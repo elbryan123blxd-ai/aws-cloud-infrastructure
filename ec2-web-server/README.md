@@ -1,4 +1,4 @@
-# Amazon EC2(introducción y servicios basicos)
+# Amazon EC2(introducción y configuraciones basicas)
 
 > Servidores virtuales en la nube para alquilar potencia de cómputo, escalar de forma flexible y pagar exclusivamente por el tiempo de uso, eliminando la inversión en hardware físico.
 
