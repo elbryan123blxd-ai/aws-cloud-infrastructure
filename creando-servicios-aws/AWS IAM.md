@@ -106,6 +106,34 @@ Este repositorio contiene un resumen detallado sobre **AWS IAM** basado en los c
 * Recuerden eliminar los usuarios siempre y las instancias creadas para evitar gastos
 
 
+* Ahora imagina este escenario , tienes 20 trabajadores de aws pero quieres que esos 20 solo trabajen con servicios de S3 , seria tedioso agregarle los permisos a cada usuario no? para eso creamos un IAM GROUP
+* El iam grupo es como un lugar donde tu defines los permisos y solo agregas a usuarios ahi
+
+
+
+*Primero vamos a crear varios usuarios de prueba (solo agregale un nombre y deja la configuracion predeterminada
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ab35c8c-8b73-4754-b309-f69365acd9e2" />
+
+*una vez terminado eso creamos nuestro grupo
+* Entramos a la seccion de IAM user groups y le damos a crear grupo
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/12f50ac9-7e86-4cd5-85f5-e91779d721f1" />
+
+* Le ponemos un nombre , ejm: chambeadores-S3
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/89b8a6a7-ae73-447c-93b2-aac31639d954" />
+
+
+*en este caso ya creamos nuestros usuarios asi que los seleccionamos
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4bae1566-91ba-4f3f-aa63-7178d71318c0" />
+
+
+*En el permiso de polices ponemos AmazonS3FullAccess , seleccionamos la casilla y creamos el usuario
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a5eefe2-c1d0-4c90-9d90-c78ceeca7474" />
+
+
+*Listo , creamos nuestro grupo , si queremos verificar le damos click al a nuestro grupo y nos saldran nuestros usuarios
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a69887b0-9c2a-4a9b-a94b-b0ab7c0de8c0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8712c475-f8e6-499a-920f-2201ed0e54d9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/627d5614-88f2-4425-a6e7-739bd31f6415" />
 
 
 
