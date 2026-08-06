@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d591ba08-2701-4341-945b-617296dc05a3" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bd6e9a0e-e80c-473f-9961-3059a17beba7" /># Guía de Contenedores AWS: Amazon ECR & Amazon ECS
-
 Resumen técnico y conceptual sobre **Amazon ECR** (Elastic Container Registry) y **Amazon ECS** (Elastic Container Service), los servicios clave de AWS para la gestión y orquestación de contenedores Docker.
 
 ---
