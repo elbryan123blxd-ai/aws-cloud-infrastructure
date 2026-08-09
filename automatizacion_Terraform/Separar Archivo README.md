@@ -178,7 +178,7 @@ output "server_public_dns" {
 
 * OJO , HACIENDO ESTO NO ESTAMOS CREANDO DOS MAQUINAS DE TERRAFORM , SIMPLEMENTE LES CAMBIAMOS LAS CARACTERISTICAS
 
-* ESTE ARCHIVO ES EL QUE MANDA Y PARA TERRAFORM ESTAMOS MODIFICANDO EL MISMO ARCHIVO
+* ESTE ARCHIVO ES EL QUE MANDA Y PARA TERRAFORM ESTAMOS MODIFICANDO LA MISMA INSTANCIA
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/953af52b-73e8-442c-85c0-7d47b0551f68" />
 
 * recuerden siempre darle el comando terraform destroy , la siguiente seccion voy a averiguar para crear dos maquinas virtuales distinas para dos entornos distinos , por ejemplo una maquina para test y otro para produccion , una vez mas gracias por ver #contratenme
