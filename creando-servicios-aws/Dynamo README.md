@@ -67,3 +67,6 @@ A diferencia de las bases de datos relacionales tradicionales (RDBMS), DynamoDB 
 
 *esto nos ayuda para evitar darle clicks a nuestro aws a cada rato
 *finalizaremos eliminando los objetos creados , gracias por ver , #contratenme
+
+* como dato curioso si nuestro dynamo fallo , o lo eliminaron , o le paso algo nos saldra este mensaje en vs code al querer conectarnos nuevamente
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41fe51c5-8cd4-4bb3-b0c8-cf2451891937" />
