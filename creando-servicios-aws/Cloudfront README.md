@@ -96,4 +96,8 @@
 * imagen del cloudfront:
 <img width="1920" height="1080" alt="Captura de pantalla (5896)" src="https://github.com/user-attachments/assets/8b1847c8-cb5c-476d-9413-52d3106ef46a" />
 
+* como dato curioso yo borre mi servicio de s3 pero el servicio de cloudfront sigue teniendo la imagen , esto se debe porque cloudfront a traves de su edge location ya guardo la imagen ( aparte del cache de mi pc)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df59ddf3-f326-41ca-9f4d-24e2a179f5a8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7cc160c-3d2a-4938-b975-2f956dbf213a" />
+
 *eso seria todo , con esto probamos que clodufront entrega imagenes o objetos de s3 de forma mas rapida , esto reduce la latencia y mejora el rendimiento de una app , NO OLVIDEN BORRAR TODO LO CREADO gracias porver
