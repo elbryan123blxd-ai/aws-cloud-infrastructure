@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/37ca08d0-586a-4470-ba7d-19fa0f373058" /># Amazon CloudFront
-
 **Amazon CloudFront** es un servicio web de **Red de Entrega de Contenido (CDN, por sus siglas en inglés)** que acelera la distribución global de contenido estático y dinámico a los usuarios finales.
 
 ---
@@ -19,14 +17,6 @@
 * **Ubicaciones de Borde (*Edge Locations*):** Nodos globales invisibles al usuario que gestionan el almacenamiento en caché y el enrutamiento del tráfico de manera totalmente automática.
 
 ---
-
-## 🚀 Beneficios Principales
-
-* **Baja latencia y alta velocidad:** Reduce drásticamente los tiempos de carga al responder desde el nodo más cercano.
-* **Seguridad avanzada:** Se integra de forma nativa con **AWS WAF** (firewall), **AWS Shield** (protección contra DDoS) y certificados SSL/TLS personalizados.
-* **Escalabilidad global:** Capacidad automática para absorber picos de tráfico masivos sin degradar el rendimiento.
-* **Optimización de costos:** Disminuye la carga de transferencia en los servidores principales y ofrece tarifas competitivas por consumo.
-
 
 ## Trabajando con cloudfront
 * la mayor ventaja de usar cloudfront es el cache , para hacer las pruebas primero crearemos un bucket con una imagen simple para que cloudfront sepa que cachear:
